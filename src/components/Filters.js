@@ -17,7 +17,7 @@ const Filters = ({onChangeType, onFindPetsClick}) => {
           <button className="ui secondary button">Find pets</button>
         </div>
       </div>
-  
+
 }
 
 export default Filters
