@@ -14,7 +14,9 @@ const Filters = ({onChangeType, onFindPetsClick}) => {
         </div>
 
         <div className="field">
-          <button className="ui secondary button">Find pets</button>
+          <button onClick={onFindPetsClick} className="ui secondary button">
+            Find pets
+          </button>
         </div>
       </div>
 
